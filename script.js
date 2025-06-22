@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
+    
     // 1. Анимация появления элементов при скролле
     const animateOnScroll = function() {
         const elements = document.querySelectorAll('.block1, .work-block, .info-block, .block2, .block3, .block4 ');
@@ -61,7 +62,6 @@ document.addEventListener('DOMContentLoaded', function() {
             item.style.transform = 'translateY(0)';
         });
     });
-
     // 4. Анимация чисел в статистике
     const animateNumbers = function() {
         const numbers = document.querySelectorAll('.number');

@@ -37,12 +37,14 @@ overflow-x: hidden;
 }
 .left-div{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #194DD2;
     color: white;
     width: 468px;
     font-size: 36px;
+    
 }
 .h3-text{
     text-align: center;
@@ -365,6 +367,7 @@ overflow-x: hidden;
     -webkit-box-shadow: 8px 7px 20px 10px rgba(0, 0, 0, 0.07);
     -moz-box-shadow: 8px 7px 20px 10px rgba(0, 0, 0, 0.07);
     box-shadow: 8px 7px 20px 10px rgba(0, 0, 0, 0.07);
+    justify-content: space-around;
 }
 .list-text-one{
     font-size: 18px;
@@ -381,6 +384,7 @@ overflow-x: hidden;
     -webkit-box-shadow: 8px 7px 20px 10px rgba(0, 0, 0, 0.07);
     -moz-box-shadow: 8px 7px 20px 10px rgba(0, 0, 0, 0.07);
     box-shadow: 8px 7px 20px 10px rgba(0, 0, 0, 0.07);
+    justify-content: space-around;
 }.list-text-two{
     font-size: 18px;
     color: #000;
@@ -396,6 +400,7 @@ overflow-x: hidden;
     -webkit-box-shadow: 8px 7px 20px 10px rgba(0, 0, 0, 0.07);
     -moz-box-shadow: 8px 7px 20px 10px rgba(0, 0, 0, 0.07);
     box-shadow: 8px 7px 20px 10px rgba(0, 0, 0, 0.07);
+    justify-content: space-around;
 }.list-text-three{
     font-size: 18px;
     color: #000;
